@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/hackerrank/Core/bin/Debug
+/hackerrank/Core/obj/Debug
+/hackerrank/packages
+/hackerrank/Tests/bin/Debug
+/hackerrank/Tests/obj/Debug
+/hackerrank/.vs/hackerrank/v14
