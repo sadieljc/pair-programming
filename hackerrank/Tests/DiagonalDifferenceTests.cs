@@ -35,7 +35,7 @@ namespace Tests
         [Test]
         public void Test2()
         {
-            //Arrange
+            //arrange
             var matrixOrder = 4;
 
             var matrix = new List<List<int>>
@@ -46,12 +46,12 @@ namespace Tests
                 new List<int> { 4, 4, -2, 1}
             };
 
-            //Act
+            //act
             var sut = new DiagonalDifference();
             var result = sut.diagonalDifference(matrix);
 
 
-            //Assert
+            //assert
             Assert.That(result, Is.EqualTo(1));
 
         }
