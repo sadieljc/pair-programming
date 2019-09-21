@@ -14,3 +14,10 @@
 /hackerrank/Core/obj/Release
 /hackerrank/.vs/hackerrank/v15/.suo
 /.vs/ProjectSettings.json
+/hackerrank/.vs/hackerrank/DesignTimeBuild
+/.vs
+/hackerrank/CSharp/packages
+/hackerrank/CSharp/Core/bin/Debug
+/hackerrank/CSharp/Core/obj
+/hackerrank/CSharp/Tests/bin/Debug
+/hackerrank/CSharp/Tests/obj
