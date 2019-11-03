@@ -1,0 +1,9 @@
+C:\Users\JGOviedo\source\repos\pair-programming\hackerrank\CSharp\Main\bin\Debug\Main.exe.config
+C:\Users\JGOviedo\source\repos\pair-programming\hackerrank\CSharp\Main\bin\Debug\Main.exe
+C:\Users\JGOviedo\source\repos\pair-programming\hackerrank\CSharp\Main\bin\Debug\Main.pdb
+C:\Users\JGOviedo\source\repos\pair-programming\hackerrank\CSharp\Main\bin\Debug\Core.dll
+C:\Users\JGOviedo\source\repos\pair-programming\hackerrank\CSharp\Main\bin\Debug\Core.pdb
+C:\Users\JGOviedo\source\repos\pair-programming\hackerrank\CSharp\Main\obj\Debug\Main.csprojAssemblyReference.cache
+C:\Users\JGOviedo\source\repos\pair-programming\hackerrank\CSharp\Main\obj\Debug\Main.csproj.CopyComplete
+C:\Users\JGOviedo\source\repos\pair-programming\hackerrank\CSharp\Main\obj\Debug\Main.exe
+C:\Users\JGOviedo\source\repos\pair-programming\hackerrank\CSharp\Main\obj\Debug\Main.pdb
