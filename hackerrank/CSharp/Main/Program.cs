@@ -16,20 +16,21 @@ namespace Main
 
             using (var reader = new StreamReader("..\\..\\SherlockAndArray\\TestCase3_oneLine.txt"))
             {
-                //int T = Convert.ToInt32(reader.ReadLine().Trim());
-
-                //for (int TItr = 0; TItr < T; TItr++)
-                //{
-                    //int n = Convert.ToInt32(reader.ReadLine().Trim());
-
-                    bigList = reader.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
+                bigList = reader.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
 
                 var sut = new SherlockAndArray();
-                string result = sut.BalancedSum(bigList);
 
+                var start = DateTime.Now;
+                Console.WriteLine(start);
+
+                string result = sut.BalancedSum(bigList);
                 Console.WriteLine(result);
-                    //textWriter.WriteLine(result);
-                //}
+
+                var end = DateTime.Now;
+                Console.WriteLine(end);
+
+                var difference = end.Subtract(start);
+                Console.WriteLine(difference.TotalSeconds);                
             }
 
             System.Console.ReadLine();

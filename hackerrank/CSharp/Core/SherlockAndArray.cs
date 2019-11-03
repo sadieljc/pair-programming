@@ -11,23 +11,24 @@ namespace Core
         public string BalancedSum(List<int> arr)
         {
             var length = arr.Count;
+            var left = 0;
+            var sum = 0;
 
             for (int i = 0; i < length; i++)
             {
-                var left = 0;
-                var right = 0;
-                //left
-                for (int j = 0; j < i; j++)
+                sum += arr[i];
+            }
+
+            for (int i = 0; i < length; i++)
+            {
+                sum -= arr[i];
+
+                if (left == sum)
                 {
-                    left += arr[j];
-                }
-                //right
-                for (int k = i + 1; k < length; k++)
-                {
-                    right += arr[k];
+                    return "YES";
                 }
 
-                if (right == left) return "YES";
+                left += arr[i];                
             }
 
             return "NO";
